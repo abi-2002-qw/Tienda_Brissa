@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8"> <!-- Codificación -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Compatibilidad con IE -->
+    <title>Joyería Brissa</title><!-- Cambio de título -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"><!-- Link para leer CSS -->
 </head>
 <body>
-    
+
+    <div id="logo"> <!-- Logo -->
+        <h1 class="titulo">BIENVENIDOS A BRISSA</h1> <!-- Título de la página -->
+        <p class="sub-titulo">Acero Inoxidable</p>
+    </div>
+
+    <nav class="menu">
+        <ul><!-- Lista de navegación -->
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./contact.html">Contactos</a></li>
+        </ul>
+    </nav><!-- Menú -->
+
+    <form class="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido">
+        <label for="telefono">Teléfono</label>
+        <input type="text" name="telefono">
+        <label for="correo">Correo</label>
+        <input type="email" name="correo">
+
+        <button type="reset">Enviar datos</button>
+   </form>  
+
+    <div class="redes">
+        <h3>O siguenos a traves de nuestras redes</h3>
+        <a href="https://www.facebook.com/profile.php?id=100056860163435">
+            <img src="./logos/fb1.png" alt="facebook" width="100" height="100">
+        </a>
+
+        <a href="https://wa.link/sak6pf">
+            <img src="./logos/wt1.png" alt="WhatsApp" width="100" height="100">
+        </a>
+    </div>
 </body>
 </html>
